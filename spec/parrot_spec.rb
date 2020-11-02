@@ -1,5 +1,6 @@
 require_relative './spec_helper'
 require_relative '../parrot.rb' def parrot(phrase = "Squawk!")
+end
 
 describe '#parrot' do
   it 'should output "Squawk!" to the terminal when called without any arguments' do
