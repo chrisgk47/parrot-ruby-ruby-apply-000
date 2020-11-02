@@ -2,6 +2,7 @@ require_relative './spec_helper'
 require_relative '../parrot.rb'
 
 def parrot(phrase = "Squawk!")
+  puts phrase
 end
 
 
